@@ -9,7 +9,8 @@ package com.mycompany.parc;
  * @author amaaradji
  */
 public class PasseZone extends Passe {
-    boolean zone_1, zone_2;
+    boolean zone_1;
+    boolean zone_2;
     boolean activ;
 
     public PasseZone(int num, String proprio) {
